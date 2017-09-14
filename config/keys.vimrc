@@ -17,7 +17,7 @@ nmap gcc <Plug>CommentaryLine
 " Goyo
 nnoremap <Leader>G :Goyo<CR>
 " Notes
-map <F2> :80vsplit note:key-binding<CR>
+map <F2> :vsplit note:key-binding<CR>
 map <F6> :RecentNotes<CR>
 " Other
 nnoremap <F5> :Buffers<CR>
