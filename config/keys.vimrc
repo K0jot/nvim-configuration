@@ -7,8 +7,6 @@ map <F3> :NERDTreeToggle<CR>
 nnoremap U :UndotreeToggle<CR>
 " FZF
 nmap <Leader>e :Files<CR>
-nmap <Leader>g :BTag<CR>
-nmap <Leader>G :Tag<CR>
 nmap <Leader>c :Commands<CR>
 nmap <Leader>f :Ag<CR>
 " vim-commentary
