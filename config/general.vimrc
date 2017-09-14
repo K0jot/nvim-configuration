@@ -37,5 +37,3 @@ let mapleader = ' '
 set splitbelow
 " split right to current file
 set splitright
-" don't resize windows to be equal
-set noequalalways
