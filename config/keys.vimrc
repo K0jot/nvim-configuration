@@ -23,7 +23,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-nnoremap <Leader>q :bd<CR>
+nnoremap <Leader>q :bd!<CR>
 " Leave terminal insert mode using ESC
 tnoremap <Esc> <C-\><C-n>
 " shortcut for small terminal window
