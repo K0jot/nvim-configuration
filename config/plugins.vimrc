@@ -12,8 +12,11 @@ let g:context_filetype#same_filetypes = {}
 let g:context_filetype#same_filetypes._ = '_'
 " Neomake
 autocmd! BufWritePost * Neomake
+let g:neomake_elixir_enabled_makers = ['mix', 'credo']
 " FZF
 set rtp+=/usr/local/opt/fzf
+" Alchemist
+let g:alchemist_tag_disable = 1
 " Rainbow Parentheses
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 au BufEnter * RainbowParentheses

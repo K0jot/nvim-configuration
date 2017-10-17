@@ -14,6 +14,8 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'neomake/neomake'
 " elixir Integration
 Plug 'slashmili/alchemist.vim'
+" phoenix
+Plug 'c-brenn/phoenix.vim'
 " status line
 Plug 'vim-airline/vim-airline'
 " colorscheme
