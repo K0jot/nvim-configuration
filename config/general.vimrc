@@ -37,3 +37,5 @@ let mapleader = ' '
 set splitbelow
 " split right to current file
 set splitright
+" yank to clipboard
+set clipboard=unnamed

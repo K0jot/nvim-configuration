@@ -13,6 +13,7 @@ let g:context_filetype#same_filetypes._ = '_'
 " Neomake
 autocmd! BufWritePost * Neomake
 let g:neomake_elixir_enabled_makers = ['mix', 'credo']
+let g:neomake_open_list = 2
 " FZF
 set rtp+=/usr/local/opt/fzf
 " Alchemist
@@ -36,3 +37,6 @@ autocmd! User GoyoLeave Limelight!
 autocmd! User indentLine doautocmd indentLine Syntax
 " vim-better-whitespace
 autocmd BufEnter * EnableStripWhitespaceOnSave
+" Markdown
+let g:instant_markdown_slow = 1
+let g:instant_markdown_allow_unsafe_content = 1

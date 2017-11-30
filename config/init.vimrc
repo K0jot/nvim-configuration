@@ -16,6 +16,7 @@ Plug 'neomake/neomake'
 Plug 'slashmili/alchemist.vim'
 " phoenix
 Plug 'c-brenn/phoenix.vim'
+Plug 'tpope/vim-projectionist' " required for some navigation features
 " status line
 Plug 'vim-airline/vim-airline'
 " colorscheme
@@ -33,7 +34,7 @@ Plug 'tpope/vim-surround'
 " easy task repetition
 Plug 'tpope/vim-repeat'
 " config for ruby
-Plug 'vim-ruby/vim-ruby'
+" Plug 'vim-ruby/vim-ruby'
 " fuzzy search
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -61,20 +62,22 @@ Plug 'scrooloose/nerdtree'
 " undo explorer
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " dockerfile syntax highlight
-Plug 'ekalinin/Dockerfile.vim'
+" Plug 'ekalinin/Dockerfile.vim'
 " Javascript syntax and indentation
-Plug 'pangloss/vim-javascript'
+" Plug 'pangloss/vim-javascript'
 " react jsx syntax and indentation
-Plug 'mxw/vim-jsx'
+" Plug 'mxw/vim-jsx'
 " go development plugin
-Plug 'fatih/vim-go'
+" Plug 'fatih/vim-go'
 " elixir development plugin
-Plug 'elixir-lang/vim-elixir'
+" Plug 'elixir-lang/vim-elixir'
 " instant markdown preview
 Plug 'suan/vim-instant-markdown'
 " notes system
-Plug 'xolox/vim-notes'
-Plug 'xolox/vim-misc'
+" Plug 'xolox/vim-notes'
+" Plug 'xolox/vim-misc'
 " whitespace highlight and remove
 Plug 'ntpeters/vim-better-whitespace'
+" multiple language support
+Plug 'sheerun/vim-polyglot'
 call plug#end()
