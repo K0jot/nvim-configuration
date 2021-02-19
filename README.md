@@ -2,11 +2,20 @@
 
 This configuration is divided into couple files, to keep everything clean.
 
-I would also like to thank all of the plugin creators and the [Junegunn](https://github.com/junegunn) specifically for his dotfiles (and for zoom function)
+## Prerequisites
 
-## Bonus
+- neovim
+- plug
 
-I also use:
+### Install Plug
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
 
-  - [Material Color Theme for iterm2](https://github.com/MartinSeeler/iterm2-material-design)
-  - [Source Code Pro font](https://github.com/powerline/fonts/tree/master/SourceCodePro)
+## Install
+
+```bash
+git clone git@github.com:K0jot/nvim-configuration.git ~/.config/nvim
+nvim --headless +PlugInstall +qa
+```
