@@ -27,20 +27,8 @@ Plug 'tpope/vim-surround'
 " fuzzy search
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-" coloring parentheses
-Plug 'junegunn/rainbow_parentheses.vim'
-" displaying indent through thin lines
-Plug 'Yggdroot/indentLine', { 'on': 'IndentLinesEnable' }
-" automatic braces, quotes, parentheses closing
-Plug 'jiangmiao/auto-pairs'
 " project structure explorer
 Plug 'scrooloose/nerdtree'
-" markdown
-Plug 'suan/vim-instant-markdown'
-" whitespace highlight and remove
-Plug 'ntpeters/vim-better-whitespace'
 " multiple language support
 Plug 'sheerun/vim-polyglot'
-" smooth scroll
-Plug 'psliwka/vim-smoothie'
 call plug#end()

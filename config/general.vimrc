@@ -8,13 +8,13 @@ set ignorecase
 " highlight search results
 set hlsearch
 " number of columns occupied by a tab character
-set tabstop=4
+set tabstop=2
 " see multiple spaces as tabstops so <BS> does the right thing
-set softtabstop=4
+set softtabstop=2
 " converts tabs to white space
 set expandtab
 " width for autoindents
-set shiftwidth=4
+set shiftwidth=2
 " indent a new line the same amount as the line just typed
 set autoindent
 " add line numbers
